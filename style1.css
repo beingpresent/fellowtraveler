@@ -1,0 +1,205 @@
+body {
+			width: 480px;
+			height: 800px;
+			margin-left: 0px;
+			margin-top: 0px;
+			border: 1px black solid;
+			background-color: #FFFFFF;
+			position: relative;
+
+		}
+.header    { 
+background-color: #E8504D; 
+color: #EFE6E5; 
+text-align: center; 
+padding: 10px; 
+width: 460px; 
+font-size: 30px;  
+font-family: 'Open Sans', sans-serif;
+
+}
+
+.header_trip {
+	background-color: #f8f8ff;
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+	margin-top: 1%; 
+	padding-top: 10px;
+	width: 480px;
+	height: 160px;
+	text-align: center;	
+}
+
+.img {
+	bottom: 0;
+}
+
+   .button_member {
+	font-family: 'Open Sans', sans-serif;
+	color: #FFFFFF;
+    background-color: #E8504D;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    margin-top: -60px;
+    margin-left: 32%;
+    padding:8px;
+    z-index: 200;
+    border: 1px grey solid;
+   }
+
+   .button_join {
+   	width: 480px;
+   	height: 60px;
+   	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFFFFF;
+    background-color: #E8504D;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+}
+.list {
+	width: 100%;
+	height: 100px;
+	background-color:#f8f8ff;
+	display: none;
+	float: left;
+	border-bottom:1px black solid;
+
+}
+    
+   
+.label_name {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: bold;
+			font-size: 20px;
+			text-align: center;
+			padding-top: 30%;
+}
+.label_email {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: bold;
+			font-size: 20px;
+			text-align: center;
+			padding-top: 27%;
+}
+.label_start {
+	font-family: 'Open Sans', sans-serif;
+			font-weight: bold;
+			font-size: 20px;
+			text-align: center;
+			padding-top: 17%;
+}
+.box_start {
+	font-family: 'Open Sans', sans-serif;
+			font-size: 15px;
+			padding-left: 15%;
+			width: 110%;
+}
+.box_email {
+			font-family: 'Open Sans', sans-serif;
+			font-size: 15px;
+			padding-left: 27%;
+}
+.box_price {
+	font-family: 'Open Sans', sans-serif;
+			font-size: 15px;
+			padding-left: 36.5%;
+			width: 42%;
+}
+.label 		{
+			font-family: 'Open Sans', sans-serif;
+			font-weight: bold;
+			font-size: 20px;
+			text-align: center;
+			padding-top: 5%;
+}
+.arrow {
+	margin-top: -8.8%;
+	padding-left: 2%;
+	position: relative;
+	z-index: 100;
+}
+
+.checkbox {
+	font-family: 'Open Sans', sans-serif;
+	margin: 1%;
+	padding-top: 10%;
+	font-weight: lighter;
+	text-align: center;
+}
+input[type="text"] {
+	width: 60%;
+	height: 20px;
+}
+
+.button {
+	font-family: 'Open Sans', sans-serif;
+    background: #E8504D;
+    font-size: 12px;
+    text-align: left;
+	color: #FFFFFF;
+    width: 150px;
+    height: 50px;
+    margin-left: 27%;
+    border:none;
+    padding-left: 10px;
+    cursor: pointer;
+    
+
+}
+
+
+.button_sug {
+	font-family: 'Open Sans', sans-serif;
+    background: #E8504D;
+    font-size: 12px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    margin-left: 20%;
+    border:none;
+    
+}
+
+.button_sug {
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFFFFF;
+    background-color: #E8504D;
+    font-size: 16px;
+    text-align:left;
+    text-decoration: none;
+    margin-left: 22%;
+    padding-right: 11%;
+       }
+
+ .button_sug:active {
+ background-color: #ff6226;
+  		}
+
+.price, .seat {
+float: left;
+padding-top: 10px;
+margin-left: 14%;
+font-family: 'Open Sans', sans-serif;
+font-weight: bolder;
+font-size: 18px;
+}
+.time {
+float: left;
+margin-left: 16%;
+font-family: 'Open Sans', sans-serif;
+font-weight: bold;
+font-size: 24px;
+padding-top: 4px;	
+}
+.address {
+padding-top: 5%;
+float: left;
+padding-left: 20%;
+font-weight: bold;
+}

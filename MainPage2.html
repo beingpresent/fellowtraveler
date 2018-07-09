@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <style>
+        body {
+            width: 480px;
+            height: 800px;
+            margin-left: 0px;
+            margin-top: 0px;
+            border: 1px black solid;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            overflow:auto;
+            
+        }
+
+        .scroll {
+            overflow-y: scroll;
+            height:735px;
+        }
+
+        .hidden-menu {
+            display: block;
+            position: fixed;
+            padding: 10px;
+            margin: 0;
+            width: 400px;
+            background-color: #ff7978;
+            height: 750px;
+            top: 55px;
+            left: -400px;
+            transition: left .2s;
+            box-sizing: border-box;           
+        }
+
+        .hidden-menu label{
+            cursor:pointer;
+        }
+
+        .hidden-menu-ticker {
+            display: none;
+        }
+
+        .hidden-menu div {
+            font-size: 25px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+
+            .hidden-menu div label {
+                vertical-align: central;
+            }
+
+            .hidden-menu div img {
+                vertical-align: middle;
+            }
+
+        a {
+            text-decoration: none;
+        }
+
+        .btn-menu {
+            color: #fff;
+            padding: 5px;
+            position: fixed;
+            top: 10px;
+            left: 5px;
+            cursor: pointer;
+            transition: left .23s;
+            z-index: 3;
+            width: 25px;
+            
+        }
+
+            .btn-menu span {
+                display: block;
+                height: 5px;
+                background-color: #fff;
+                margin: 5px 0 0;
+                transition: all .1s linear .23s;
+                position: relative;
+            }
+
+                .btn-menu span.first {
+                    margin-top: 0;
+                }
+
+        .hidden-menu-ticker:checked ~ .hidden-menu {
+            left: 0;
+        }
+
+        header {
+            background-color: #E8504D;
+            color: #EFE6E5;
+            text-align: center;
+            padding: 10px;
+            width: 460px;
+            font-size: 30px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .line {
+            display: block;
+            width: 80%;
+            height: 2px;
+            background: #fff;
+            margin: 8px auto;
+        }
+
+        .blocks {
+            height: 20%;
+            margin: 1% 1% 1% 1%;
+            background-color: #fee6e6;
+            text-align:center;
+        }
+            .blocks div {
+                padding: 1% 1% 1% 1%;
+                margin-top: 2% 1% 2% 1%;
+                color: #646368;
+            }
+
+        #Time {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        #Spaces {
+
+        }
+
+        #Places {
+
+        }
+
+        #Price {
+
+        }
+        #plus{
+            position:absolute;
+            top:720px;
+            left:400px;
+            z-index:3;
+
+        }
+        .hidden-menu-ticker:checked ~ #plus {
+            display:none;
+        }
+
+    </style>
+</head>
+<body link="red" vlink="#cecece" alink="#ff0000">
+    <header>
+        <label>FELLOWTRAVELER</label>
+    </header>
+
+    <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+
+    <label class="btn-menu" for="hmt">
+        <span class="first"></span>
+        <span class="second"></span>
+        <span class="third"></span>
+    </label>
+
+    <div class="hidden-menu">
+        <div>
+            <a href="">
+                <img src="settings.png" width="60" height="60" />
+                <label>НАСТРОЙКИ</label>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="file.png" width="60" height="60" />
+                <label>ИСТОРИЯ ПОЕЗДОК</label>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="vopros.png" width="60" height="60" />
+                <label>О ПРОГРАММЕ</label>
+            </a>
+        </div>
+    </div>
+  
+    <div class="scroll">
+        <div class="blocks">
+            <div>
+                <label id="Time">00:00</label>
+            </div>
+
+            <div>
+                <label id="Places">Ул.Димитрова - Ул.Пушкина</label>
+            </div>
+
+            <div>
+                <label id="Price">Стоимость</label>
+            </div>
+
+            <div>
+                <label id="Spaces">2 места</label>
+            </div>
+        </div>
+        <div class="blocks">
+            <div>
+                <label id="Time">00:00</label>
+            </div>
+
+            <div>
+                <label id="Places">Ул.Димитрова - Ул.Пушкина</label>
+            </div>
+
+            <div>
+                <label id="Price">Стоимость</label>
+            </div>
+
+            <div>
+                <label id="Spaces">2 места</label>
+            </div>
+        </div>
+        <div class="blocks">
+            <div>
+                <label id="Time">00:00</label>
+            </div>
+
+            <div>
+                <label id="Places">Ул.Димитрова - Ул.Пушкина</label>
+            </div>
+
+            <div>
+                <label id="Price">Стоимость</label>
+            </div>
+
+            <div>
+                <label id="Spaces">2 места</label>
+            </div>
+        </div>
+        <div class="blocks">
+            <div>
+                <label id="Time">00:00</label>
+            </div>
+
+            <div>
+                <label id="Places">Ул.Димитрова - Ул.Пушкина</label>
+            </div>
+
+            <div>
+                <label id="Price">Стоимость</label>
+            </div>
+
+            <div>
+                <label id="Spaces">2 места</label>
+            </div>
+        </div>
+        <div class="blocks">
+            <div>
+                <label id="Time">00:00</label>
+            </div>
+
+            <div>
+                <label id="Places">Ул.Димитрова - Ул.Пушкина</label>
+            </div>
+
+            <div>
+                <label id="Price">Стоимость</label>
+            </div>
+
+            <div>
+                <label id="Spaces">2 места</label>
+            </div>
+        </div>
+        <div class="blocks">
+            <div>
+                <label id="Time">00:00</label>
+            </div>
+
+            <div>
+                <label id="Places">Ул.Димитрова - Ул.Пушкина</label>
+            </div>
+
+            <div>
+                <label id="Price">Стоимость</label>
+            </div>
+
+            <div>
+                <label id="Spaces">2 места</label>
+            </div>
+        </div>
+    </div>
+    
+    <a href="">
+        <img src="plus.png" width="60" height="60" id="plus" />
+    </a>
+
+</body>
+</html>

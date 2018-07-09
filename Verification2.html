@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <style>
+        body {
+            width: 480px;
+            height: 800px;
+            margin-left: 0px;
+            margin-top: 0px;
+            border: 1px black solid;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        header {
+            background-color: #E8504D;
+            color: #EFE6E5;
+            text-align: center;
+            padding: 10px;
+            width: 460px;
+            font-size: 30px;
+            position: relative;
+            z-index: 1;
+            margin-bottom:80px;
+        }
+
+        #car{
+            margin-top:290px;
+        }
+        #codelabel {
+            text-align: center;
+            font-size: 25px;
+            margin-left: 130px;
+            color: #646368;
+        }
+        #code {
+            font-size: 35px;
+            text-align: center;
+            height: 60px;
+            width: 150px;
+            margin-top: 20px;
+            margin-left: 160px;
+        }
+    </style>
+</head>
+<body link="red" vlink="#cecece" alink="#ff0000">
+    <header>
+        <label>FELLOWTRAVELER</label>
+    </header>
+
+    <div>
+        <label for="code" id="codelabel">Код из письма</label>
+    </div>
+    <form>
+        <input type="text" id="code"  minLength="6" maxLength="6"
+               placeholder="* * * * * *"/>
+    </form>
+    <img src="SumCar.png" width="480" height="250" id="car"/>
+</body>
+</html>
