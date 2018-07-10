@@ -31,7 +31,9 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .img {
-	bottom: 0;
+	top: 550px;
+	width:480px;
+	height: 250px;
 }
 
    .button_member {
@@ -51,14 +53,13 @@ font-family: 'Open Sans', sans-serif;
    .button_join {
    	width: 480px;
    	height: 60px;
-   	float: left;
 	font-family: 'Open Sans', sans-serif;
 	color: #FFFFFF;
     background-color: #E8504D;
     font-size: 18px;
     font-weight: bold;
-    position: absolute;
-    bottom: 0;
+    margin-top: 510px;
+    
 }
 .list {
 	width: 100%;
@@ -139,43 +140,30 @@ input[type="text"] {
 	font-family: 'Open Sans', sans-serif;
     background: #E8504D;
     font-size: 12px;
-    text-align: left;
+    text-align: center;
 	color: #FFFFFF;
     width: 150px;
     height: 50px;
-    margin-left: 27%;
+    margin-left: 160px;
     border:none;
     padding-left: 10px;
-    cursor: pointer;
-    
-
+  
 }
 
 
 .button_sug {
 	font-family: 'Open Sans', sans-serif;
     background: #E8504D;
-    font-size: 12px;
-    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
     color: #FFFFFF;
     width: 200px;
     height: 50px;
-    margin-left: 20%;
+    margin-left: 140px;
     border:none;
     
 }
-
-.button_sug {
-	position: relative;
-	font-family: 'Open Sans', sans-serif;
-	color: #FFFFFF;
-    background-color: #E8504D;
-    font-size: 16px;
-    text-align:left;
-    text-decoration: none;
-    margin-left: 22%;
-    padding-right: 11%;
-       }
 
  .button_sug:active {
  background-color: #ff6226;
